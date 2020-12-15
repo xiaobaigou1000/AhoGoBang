@@ -1,0 +1,31 @@
+.cell {
+  text-align: center;
+  font-size: 55px;
+  background-color: rgba(238, 228, 218, .35);
+  font-weight: bold;
+  border-radius: 3px;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell:last-child {
+  margin-right: 0;
+}
+
+.cell-0 {
+  color: transparent;
+}
+
+.cell-1 {
+  border-radius:50px;
+  background-color: #000000;
+}
+
+.cell-2 {
+  border-radius:50px;
+  background-color: #ffffff;
+}

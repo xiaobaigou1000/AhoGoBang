@@ -1,0 +1,28 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+/gobangWASM/.vscode
+/gobangWASM/build
+
+/gobang-view/.eslintcache
+
+# dependencies
+/gobang-view/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/gobang-view/build
+
+# misc
+/gobang-view/.DS_Store
+/gobang-view/.env.local
+/gobang-view/.env.development.local
+/gobang-view/.env.test.local
+/gobang-view/.env.production.local
+
+/gobang-view/npm-debug.log*
+/gobang-view/yarn-debug.log*
+/gobang-view/yarn-error.log*
