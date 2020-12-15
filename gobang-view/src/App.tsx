@@ -8,7 +8,7 @@ function App() {
     <div className="page">
       <div className="game-header">
         <h1 className="title">
-          一个基于WASM的智障五子棋AI
+          Aho GoBang written in wasm
         </h1>
       </div>
       <GoBang />
